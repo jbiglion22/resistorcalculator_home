@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PhoneCheck Privacy Policy</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --text: #1f2328;
+    --muted: #59636e;
+    --line: #d8dee4;
+    --accent: #1a73e8;
+    --card: #f6f8fa;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0d1117;
+      --text: #e6edf3;
+      --muted: #9198a1;
+      --line: #30363d;
+      --accent: #4c9aff;
+      --card: #161b22;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans KR", "Apple SD Gothic Neo", sans-serif;
+    line-height: 1.7;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  header { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+  h1 { font-size: 1.6rem; margin: 0; }
+  h2 { font-size: 1.15rem; margin-top: 2em; padding-bottom: 6px; border-bottom: 1px solid var(--line); }
+  .meta { color: var(--muted); font-size: 0.9rem; }
+  .lang-switch button {
+    border: 1px solid var(--line); background: var(--card); color: var(--text);
+    padding: 6px 14px; border-radius: 6px; cursor: pointer; font-size: 0.9rem;
+  }
+  .lang-switch button[aria-pressed="true"] { border-color: var(--accent); color: var(--accent); font-weight: 600; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+  th, td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; vertical-align: top; }
+  th { background: var(--card); }
+  .table-wrap { overflow-x: auto; }
+  a { color: var(--accent); }
+  .box { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 12px 16px; }
+  [data-lang] { display: none; }
+  [data-lang].active { display: block; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1 id="title">PhoneCheck Privacy Policy</h1>
+    <div class="lang-switch">
+      <button type="button" id="btn-en" onclick="setLang('en')">English</button>
+      <button type="button" id="btn-ko" onclick="setLang('ko')">한국어</button>
+    </div>
+  </header>
+
+  <!-- ===================== ENGLISH ===================== -->
+  <section data-lang="en">
+    <p class="meta">Effective date: October 9, 2026</p>
+
+    <p>This Privacy Policy explains how information is handled in this application (the "App").</p>
+
+    <div class="box">
+      <strong>Summary</strong>
+      <ul>
+        <li>We do not ask you to create an account and do not collect your name, email, or phone number.</li>
+        <li>Results of device checks (sensors, touch, sound, battery, camera, network) are processed only on your device and are not sent to us.</li>
+        <li>The App shows ads through Google AdMob, which may collect device identifiers and usage data as described below.</li>
+      </ul>
+    </div>
+
+    <h2>1. Information processed on your device</h2>
+    <p>To check your phone's features, the App reads data from the device's hardware and system. This data is used only to display results on your screen. It is not stored on our servers, and we do not have access to it.</p>
+    <div class="table-wrap">
+    <table>
+      <tr><th>Feature</th><th>Data / Permission</th><th>Purpose</th></tr>
+      <tr><td>Sensor check</td><td>Accelerometer, gyroscope, proximity, light and other sensor values</td><td>Show whether sensors work</td></tr>
+      <tr><td>Screen &amp; touch check</td><td>Touch coordinates</td><td>Test the touch screen and display</td></tr>
+      <tr><td>Sound &amp; vibration check</td><td>Speaker, vibration, microphone (RECORD_AUDIO)</td><td>Test audio output and input. Audio is not recorded to a file or sent anywhere.</td></tr>
+      <tr><td>Battery &amp; system check</td><td>Battery level, temperature, device model, OS version</td><td>Show device status</td></tr>
+      <tr><td>Camera &amp; flashlight check</td><td>Camera (CAMERA)</td><td>Show camera preview and turn on the flashlight. Photos and videos are not saved or sent.</td></tr>
+      <tr><td>Network check</td><td>Network state, Wi-Fi / mobile connection info</td><td>Show connection status</td></tr>
+    </table>
+    </div>
+    <p>You can deny or revoke any permission at any time in your device settings. Only the related check will stop working.</p>
+
+    <h2>2. Advertising (Google AdMob)</h2>
+    <p>The App displays banner ads provided by Google AdMob. Google and its partners may collect and use the following information to serve and measure ads:</p>
+    <ul>
+      <li>Advertising ID (Android Advertising ID)</li>
+      <li>IP address and approximate location derived from it</li>
+      <li>Device information (model, OS version, language)</li>
+      <li>Ad interaction data (impressions, clicks)</li>
+    </ul>
+    <p>For more information, see <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">How Google uses information from sites or apps that use its services</a> and <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>.</p>
+    <p>You can reset your Advertising ID or opt out of personalized ads in your device's <em>Settings &gt; Google &gt; Ads</em> (or <em>Settings &gt; Privacy &gt; Ads</em>).</p>
+
+    <h2>3. Users in the EEA, UK and Switzerland</h2>
+    <p>If you are in the European Economic Area, the United Kingdom or Switzerland, the App asks for your consent through Google's User Messaging Platform before ads are personalized. You can change your choice at any time from <em>Settings &gt; Privacy options</em> in the App.</p>
+    <p>The legal basis for ad-related processing is your consent (GDPR Art. 6(1)(a)). You have the right to access, correct, delete, restrict, or object to the processing of your data, and to lodge a complaint with your local data protection authority.</p>
+
+    <h2>4. Data retention and sharing</h2>
+    <p>We do not store personal data on our own servers. Data collected by Google AdMob is retained according to Google's policies. We do not sell or share personal data with any third party other than Google as described above.</p>
+
+    <h2>5. Children</h2>
+    <p>The App is not directed at children under 13 (or the minimum age in your country). We do not knowingly collect personal information from children.</p>
+
+    <h2>6. Changes to this policy</h2>
+    <p>We may update this Privacy Policy. Changes will be posted on this page with a new effective date.</p>
+
+    <h2>7. Contact</h2>
+    <p>If you have questions about this Privacy Policy, please contact us:</p>
+    <p>Email: <a href="mailto:jbiglion22@gmail.com">jbiglion22@gmail.com</a></p>
+  </section>
+
+  <!-- ===================== 한국어 ===================== -->
+  <section data-lang="ko">
+    <p class="meta">시행일: 2026년 10월 9일</p>
+
+    <p>본 애플리케이션(이하 "앱")은 「개인정보 보호법」 등 관련 법령을 준수하며, 앱에서 정보를 어떻게 처리하는지 다음과 같이 안내합니다.</p>
+
+    <div class="box">
+      <strong>요약</strong>
+      <ul>
+        <li>회원가입이 없으며, 이름·이메일·전화번호 등을 수집하지 않습니다.</li>
+        <li>기능 점검 결과(센서, 터치, 소리, 배터리, 카메라, 네트워크)는 기기 안에서만 처리되며 개발자에게 전송되지 않습니다.</li>
+        <li>앱은 Google AdMob 광고를 표시하며, AdMob은 아래와 같이 기기 식별자 등을 수집할 수 있습니다.</li>
+      </ul>
+    </div>
+
+    <h2>1. 기기 내에서 처리되는 정보</h2>
+    <p>앱은 휴대폰 기능을 점검하기 위해 기기의 하드웨어 및 시스템 정보를 읽습니다. 이 정보는 화면에 결과를 보여 주는 용도로만 사용되며, 서버에 저장되지 않고 개발자도 접근할 수 없습니다.</p>
+    <div class="table-wrap">
+    <table>
+      <tr><th>기능</th><th>정보 / 권한</th><th>이용 목적</th></tr>
+      <tr><td>센서 체크</td><td>가속도, 자이로, 근접, 조도 등 센서 값</td><td>센서 작동 여부 표시</td></tr>
+      <tr><td>화면·터치 체크</td><td>터치 좌표</td><td>터치스크린 및 화면 점검</td></tr>
+      <tr><td>소리·진동 체크</td><td>스피커, 진동, 마이크(RECORD_AUDIO)</td><td>소리 출력·입력 점검. 녹음 파일을 저장하거나 전송하지 않습니다.</td></tr>
+      <tr><td>배터리·시스템 체크</td><td>배터리 잔량, 온도, 기기 모델, OS 버전</td><td>기기 상태 표시</td></tr>
+      <tr><td>카메라·손전등 체크</td><td>카메라(CAMERA)</td><td>카메라 미리보기 및 손전등 켜기. 사진·영상을 저장하거나 전송하지 않습니다.</td></tr>
+      <tr><td>네트워크 체크</td><td>네트워크 상태, Wi-Fi/모바일 연결 정보</td><td>연결 상태 표시</td></tr>
+    </table>
+    </div>
+    <p>모든 권한은 기기 설정에서 언제든지 거부하거나 철회할 수 있으며, 이 경우 해당 점검 기능만 사용할 수 없습니다.</p>
+
+    <h2>2. 광고 (Google AdMob)</h2>
+    <p>앱은 Google AdMob이 제공하는 배너 광고를 표시합니다. Google 및 그 파트너는 광고 제공과 성과 측정을 위해 다음 정보를 수집·이용할 수 있습니다.</p>
+    <ul>
+      <li>광고 ID (Android 광고 ID)</li>
+      <li>IP 주소 및 이를 통한 대략적인 위치</li>
+      <li>기기 정보 (모델, OS 버전, 언어)</li>
+      <li>광고 노출·클릭 정보</li>
+    </ul>
+    <p>자세한 내용은 <a href="https://policies.google.com/technologies/partner-sites?hl=ko" target="_blank" rel="noopener">Google 서비스를 사용하는 사이트 또는 앱의 정보를 Google이 사용하는 방법</a>과 <a href="https://policies.google.com/privacy?hl=ko" target="_blank" rel="noopener">Google 개인정보처리방침</a>을 참고하세요.</p>
+    <p>기기의 <em>설정 &gt; Google &gt; 광고</em>(또는 <em>설정 &gt; 개인정보 보호 &gt; 광고</em>)에서 광고 ID를 재설정하거나 맞춤 광고를 해제할 수 있습니다.</p>
+
+    <h2>3. 개인정보의 처리 위탁 및 국외 이전</h2>
+    <div class="table-wrap">
+    <table>
+      <tr><th>수탁자</th><th>위탁 업무</th><th>이전 항목</th><th>이전 국가</th></tr>
+      <tr><td>Google LLC</td><td>광고 제공 및 성과 측정</td><td>광고 ID, IP 주소, 기기 정보, 광고 이용 기록</td><td>미국 등 Google 데이터센터 소재 국가 (앱 실행 시 네트워크를 통해 전송)</td></tr>
+    </table>
+    </div>
+    <p>보유 기간은 Google의 정책에 따릅니다. 이용자는 위 2번의 방법으로 맞춤 광고를 해제하여 국외 이전을 거부할 수 있으며, 이 경우에도 맞춤형이 아닌 광고는 표시될 수 있습니다.</p>
+
+    <h2>4. 유럽(EEA·영국·스위스) 이용자</h2>
+    <p>EEA, 영국 또는 스위스에 있는 이용자에게는 맞춤 광고 전에 Google User Messaging Platform을 통해 동의를 요청합니다. 동의 여부는 앱의 <em>설정 &gt; 개인정보 보호 옵션</em>에서 언제든지 변경할 수 있습니다.</p>
+
+    <h2>5. 개인정보의 보유 및 파기</h2>
+    <p>개발자는 자체 서버에 개인정보를 저장하지 않습니다. 앱 내에서 처리되는 정보는 앱을 종료하거나 삭제하면 기기에서 함께 삭제됩니다.</p>
+
+    <h2>6. 이용자의 권리</h2>
+    <p>이용자는 개인정보의 열람, 정정, 삭제, 처리정지를 요구할 수 있습니다. 개발자는 개인정보를 직접 보관하지 않으므로, Google이 수집한 정보에 대해서는 Google의 안내에 따라 요청할 수 있습니다.</p>
+
+    <h2>7. 아동의 개인정보</h2>
+    <p>앱은 만 14세 미만 아동을 대상으로 하지 않으며, 아동의 개인정보를 고의로 수집하지 않습니다.</p>
+
+    <h2>8. 개인정보처리방침의 변경</h2>
+    <p>이 방침이 변경되는 경우 이 페이지에 시행일과 함께 게시합니다.</p>
+
+    <h2>9. 개인정보 보호책임자 및 문의</h2>
+    <p>이메일: <a href="mailto:jbiglion22@gmail.com">jbiglion22@gmail.com</a></p>
+    <p>개인정보 침해에 대한 신고·상담은 아래 기관에 문의할 수 있습니다.</p>
+    <ul>
+      <li>개인정보침해신고센터: privacy.kisa.or.kr / 국번 없이 118</li>
+      <li>개인정보분쟁조정위원회: www.kopico.go.kr / 1833-6972</li>
+    </ul>
+  </section>
+</main>
+
+<script>
+  function setLang(lang) {
+    document.querySelectorAll('[data-lang]').forEach(function (el) {
+      el.classList.toggle('active', el.getAttribute('data-lang') === lang);
+    });
+    document.getElementById('btn-en').setAttribute('aria-pressed', lang === 'en');
+    document.getElementById('btn-ko').setAttribute('aria-pressed', lang === 'ko');
+    document.documentElement.lang = lang;
+    document.getElementById('title').textContent =
+      lang === 'ko' ? '폰체크 개인정보처리방침' : 'PhoneCheck Privacy Policy';
+    document.title = lang === 'ko' ? '폰체크 개인정보처리방침' : 'PhoneCheck Privacy Policy';
+  }
+  // 기본은 영어. URL에 ?lang=ko 가 있을 때만 한국어로 시작
+  (function () {
+    var param = new URLSearchParams(location.search).get('lang');
+    setLang(param === 'ko' ? 'ko' : 'en');
+  })();
+</script>
+</body>
+</html>
